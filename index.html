@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatizált tesztelés</title>
+</head>
+<body>
+    <main>
+        <header><h1>Selenium tesztelés</h1></header>
+        <article>
+            <form action="/action.php" method="GET">
+                <label for="username">Felhasználónév: </label>
+                <input type="text" id="username" name="username" placeholder="sajtoskeksz"><br>
+                <label for="password">Jelszó: </label>
+                <input type="password" pattern="[A-Za-z]{4}">
+                <input type="submit" value="Belépés">
+            </form>
+
+            <div class="success-message"></div>
+        </article>
+        <footer><p>@ Piller András</p></footer>
+    </main>
+</body>
+</html>
